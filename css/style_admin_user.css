@@ -1,0 +1,9 @@
+.setting-user-header-container {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin-right: 10px;
+}

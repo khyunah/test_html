@@ -1,0 +1,161 @@
+.commu-detail-center-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.commu-detail-container {
+  display: flex;
+  width: 80vh;
+  height: 80vh;
+  position: absolute;
+  margin: auto;
+  top: 10%;
+}
+
+.commu-detail-img-container {
+  width: 55%;
+  height: 100%;
+}
+
+.commu-detail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.commu-detail-trim {
+  width: 5%;
+  height: 100%;
+}
+
+.commu-detail-div-main-container {
+  padding: 5%;
+  width: 50%;
+  height: 100%;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+
+.commu-detail-like-icon-box {
+  display: inline;
+}
+
+.commu-detail-div-main-container::-webkit-scrollbar {
+  display: none;
+}
+
+.commu-detail-div-title-container {
+  width: 95%;
+}
+
+.commu-detail-text {
+  font-family: "Gowun Batang", serif;
+  line-height: 5px;
+  letter-spacing: 0.8px;
+  display: inline;
+}
+
+.commu-detail-div-content-container {
+  width: 95%;
+  overflow: hidden;
+}
+
+.commu-detail-span-goodlook-count {
+  font-size: 15px;
+  margin-left: 7px;
+}
+
+.commu-detail-span-content {
+  font-size: 14px;
+}
+
+.p-username {
+  color: gray;
+  font-size: 11px;
+}
+
+.hr-goodlook-line {
+  width: 288px;
+  margin-left: 0;
+  border-top: 1px solid #eeeeee7f;
+}
+
+.commu-detail-input {
+  display: inline;
+  width: 270px;
+  height: 32px;
+  font-size: 14px;
+  border: 0;
+  border-bottom: 1px solid black;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.input-reply {
+  font-size: 13px;
+}
+
+.commu-detail-btn {
+  display: inline;
+  border: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100px;
+}
+
+.btn-good:active {
+  background-color: rgb(255, 128, 128);
+}
+
+.commu-detail-btn-up {
+  margin-left: 162px;
+}
+
+.commu-detail-btn-up:active {
+  background-color: white;
+  color: black;
+}
+
+.commu-detail-reply-container {
+  width: 93%;
+}
+
+.commu-detail-reply-firstline-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commu-detail-reply-text {
+  color: rgb(56, 56, 56);
+}
+
+.commu-detail-reply-user {
+  font-size: 14px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.commu-detail-btn-reply {
+  display: inline;
+  border-color: black;
+  border-width: 1px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 38px;
+  font-size: 11px;
+}
+
+.commu-detail-reply-content {
+  font-size: 14px;
+  width: 95%;
+  resize: none;
+  border: none;
+  outline: none;
+  overflow-y: visible;
+  padding: 1.1em;
+  padding-bottom: 0.2em;
+  line-height: 1.6;
+}
